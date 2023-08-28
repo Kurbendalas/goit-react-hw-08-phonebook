@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 250px;
+  }
+  
+  .label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn {
+    background-color: rgba(213, 230, 222, 0.9);
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    color: rgb(40, 64, 48);
+    cursor: pointer;
+  }
