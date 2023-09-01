@@ -1,8 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { logIn, logOut, signUp } from './auth-operations';
 
-import 'react-toastify/dist/ReactToastify.css';
-
 // Ініціалізація даних користувача та токену з локального сховища
 const tempUser = JSON.parse(localStorage.getItem('user')) || null;
 const tempToken = localStorage.getItem('token') || null;
